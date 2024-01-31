@@ -7,11 +7,11 @@ body {
   padding: 0;
 }
 button {
-    background: none;
-    outline: none;
-    box-shadow: none;
-    border: 0;
-  }
+  background: none;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
 
 header img {
   width: 100%;
@@ -54,260 +54,263 @@ header img {
   background-size: 100% 90%;
 }
 .tab-content {
-    display: none;
+  display: none;
 }
-.tab-content.active{
-    display: block;
+.tab-content.active {
+  display: block;
 }
 
 .tab-btns-schedule {
-    background: url("../assets/img/button-slide-bg.png") center/100% 100% no-repeat;
-    width: 85%;
-    height: 50px;
-    margin: auto;
-    margin-top: 24px;
-    display: flex;
-    justify-content: center;
-    gap: 38px;
-    position: relative;
-  }
-
-  .leaderboard,.leaderboard-1{
-    display: none;
-  }
-  .leaderboard.active, .leaderboard-1.active {
-    background: url('../assets/img/Leaderboard.png') center/100% 100% no-repeat;
-    padding: 5vw 0;
-    display: block;
+  background: url("../assets/img/button-slide-bg.png") center/100% 100%
+    no-repeat;
+  width: 85%;
+  height: 50px;
+  margin: auto;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 38px;
+  position: relative;
 }
-  .dancing.active{
-    background: url("../assets/img/Dance-Battle.png") center/100% 100% no-repeat;
-    transform: scale(1.3);
-  }
-  .singing.active{
-    background: url("../assets/img/Singing-Battle.png") center/100% 100%
-      no-repeat;
-    transform: scale(1.3);
-  }
-  .fashion.active {
-    background: url("../assets/img/Fashion-Battle.png") center/100% 100%
-      no-repeat;
-    transform: scale(1.3);
-  }
 
-
-
-
+.leaderboard,
+.leaderboard-1 {
+  display: none;
+}
+.leaderboard.active,
+.leaderboard-1.active {
+  background: url("../assets/img/Leaderboard.png") center/100% 100% no-repeat;
+  padding: 5vw 0;
+  display: block;
+}
+.dancing.active {
+  background: url("../assets/img/Dance-Battle.png") center/100% 100% no-repeat;
+  transform: scale(1.3);
+}
+.singing.active {
+  background: url("../assets/img/Singing-Battle.png") center/100% 100% no-repeat;
+  transform: scale(1.3);
+}
+.fashion.active {
+  background: url("../assets/img/Fashion-Battle.png") center/100% 100% no-repeat;
+  transform: scale(1.3);
+}
 
 #table-data {
-    display: grid;
-    grid-template-columns: 17% 31% auto 31% 14%;
-    font-size: 2.5vw;
-    margin: 1vw auto;
-    background-color: #ff6918;
-    /* background-image: url("../assets/img/");
+  display: grid;
+  grid-template-columns: 17% 31% auto 31% 14%;
+  font-size: 2.5vw;
+  margin: 1vw auto;
+  background-color: #ff6918;
+  /* background-image: url("../assets/img/");
     background-size: 100% 100%;
     background-repeat: no-repeat; */
-    align-items: center;
-    justify-items: center;
-    padding-top: 1vw;
-    font-weight: bold;
-    color: #fff;
-    margin-top: 0vw;
-    width: 88%;
-    padding-bottom: 2vw;
-    padding-right: 2.5vw;
-    border: 2px solid #f6d957 ;
-    border-radius: 2.5vw;
+  align-items: center;
+  justify-items: center;
+  padding-top: 1vw;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0vw;
+  width: 88%;
+  padding-bottom: 2vw;
+  padding-right: 2.5vw;
+  border: 2px solid #f6d957;
+  border-radius: 2.5vw;
 }
 
 /* Leaderboard styles */
 
 .beans-amount {
-    max-width: 50%;
-    margin: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 22vw;
-  }
-  .beans-amount img {
-    width: 100%;
-  }
-  .beans-amount span {
-    position: absolute;
-    color: #fff;
-    margin-left: 6vw;
-    font-size: 5vw;
-    font-weight: 600;
-  }
+  max-width: 50%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 22vw;
+}
+.beans-amount img {
+  width: 100%;
+}
+.beans-amount span {
+  position: absolute;
+  color: #fff;
+  margin-left: 6vw;
+  font-size: 5vw;
+  font-weight: 600;
+}
 
 .topper-container {
-    display: flex;
-    width: 78%;
-    gap: 1vw;
-    margin: auto;
-    margin-top: 15vw;
-    background: url("../img/rank\ bg.png") center/100% 100% no-repeat;
-    padding: 2vw;
-  }
-  .topper-container .top {
-    height: 45vw;
-    width: 72%;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    color: #fff;
-    padding-inline: 3vw;
-    gap: 3px;
-    background: url("../img/Rank\ display.png") center/100% 100% no-repeat;
-    font-size: 3vw;
-    overflow: hidden;
-  }
-  .topper-container .top-1 {
-    order: 2;
-  }
-  .top-1 .avatar{
-    background: url("../assets/img/Gold.png") center/100% 100% no-repeat;
-    overflow: hidden;
-    padding: 5vw;
-  }
-  .topper-container .top-2 {
-    margin-top: 18%;
-    order: 1;
-  }
-  .top-2 .avatar {
-    background: url("../assets/img/Silver.png") center/100% 100% no-repeat;
-    overflow: hidden;
-    padding: 5vw;
-  }
-  
-  .topper-container .top-3 {
-    margin-top: 18%;
-    order: 3;
-  }
-  .top-3 .avatar {
-    background: url("../assets/img/Bronze.png") center/100% 100% no-repeat;
-    overflow: hidden;
-    padding: 5vw;
-  }
-  .avatar {
-    max-width: 10vw;
-    max-height: 10vw;
-    border-radius: 50%;
-    margin: auto;
-  }
-  .avatar img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 1/1;
-  }
-  
-  .top .avatar {
-    min-width:10vw ;
-    min-height: 10vw;
-    display: flex;
-    align-items: center;
-    /* margin-top: 1vw; */
-    justify-content: center;
-  }
-  .top .avatar img{
-    margin-top: 3.5vw;
-      border-radius: 50%;
-      width: 149%;
-      height: 129%;
-      object-fit: contain;
-  }
-  
-  .winner-container .avatar {
-    width: 8vw;
-    height: 8vw;
-    border-radius: 50%;
-    border: 1px solid goldenrod;
-    background: black;
-  }
-  .info {
-    margin: 1vw 0; 
-    font-size: 3.2vw;
-    display: flex;
-    flex-direction: column;
-    font-style: italic;
-    color: white;
-    font-weight: 600;
-  }
-  .info .name {
-    /* text-wrap: nowrap; */
-  }
-  .info .beans-container {
-    margin-top: 0.5vw;
-    display: flex;
-    gap: 1vw;
-    font-size: 2.5vw;
-  }
-  .info .beans-container .bean-img {
-    max-width: 3vw;
-    max-height: 3vw;
-    
-  }
-  
-  .winner-container {
-    display: flex;
-    flex-direction: column;
-    width: 68%;
-    /* height: 450px; */
-    align-items: center;
-    margin-top: 16px;
-    padding-inline: 16px;
-    gap: 8px;
-    margin-bottom: 32px;
-    padding-bottom: 47px;
-    margin-inline: auto;
-  }
-  
-  .winner-strip {
-    color: #f6d785;
-    display: flex;
-    width: 100%;
-    /* min-height: 40px; */
-    align-items: center;
-    padding-inline: 14px;
-    padding-bottom: 2vw;
-    background: url("../assets/img/leaderboardStrip.png") center/100% 100% no-repeat;
-    gap: 1em;
-    padding-top: 1vw;
-  }
-  
-  .winner-strip .info {
-    flex: 1;
-    color: inherit;
-  }
-  
-  .winner-strip .info .beans-container {
-    display: flex !important;
-    gap: 1vw;
-    background: #232323;
-  }
-  .winner-strip .info .beans-container .bean-img {
-    max-width: 5vw !important;
-  }
-  
-  /* ----Footer section---- */
+  display: flex;
+  width: 78%;
+  gap: 1vw;
+  margin: auto;
+  margin-top: 15vw;
+  background: url("../img/rank\ bg.png") center/100% 100% no-repeat;
+  padding: 2vw;
+}
+.topper-container .top {
+  height: 45vw;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  color: #fff;
+  padding-inline: 3vw;
+  gap: 3px;
+  background: url("../img/Rank\ display.png") center/100% 100% no-repeat;
+  font-size: 3vw;
+  overflow: hidden;
+}
+.topper-container .top-1 {
+  order: 2;
+}
+.top-1 .avatar {
+  background: url("../assets/img/Gold.png") center/100% 100% no-repeat;
+  overflow: hidden;
+  padding: 5vw;
+}
+.topper-container .top-2 {
+  margin-top: 18%;
+  order: 1;
+}
+.top-2 .avatar {
+  background: url("../assets/img/Silver.png") center/100% 100% no-repeat;
+  overflow: hidden;
+  padding: 5vw;
+}
+
+.topper-container .top-3 {
+  margin-top: 18%;
+  order: 3;
+}
+.top-3 .avatar {
+  background: url("../assets/img/Bronze.png") center/100% 100% no-repeat;
+  overflow: hidden;
+  padding: 5vw;
+}
+.avatar {
+  max-width: 10vw;
+  max-height: 10vw;
+  border-radius: 50%;
+  margin: auto;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.top .avatar {
+  min-width: 10vw;
+  min-height: 10vw;
+  display: flex;
+  align-items: center;
+  /* margin-top: 1vw; */
+  justify-content: center;
+}
+.top .avatar img {
+  margin-top: 3.5vw;
+  border-radius: 50%;
+  width: 149%;
+  height: 129%;
+  object-fit: contain;
+}
+
+.winner-container .avatar {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+  border: 1px solid goldenrod;
+  background: black;
+}
+.info {
+  margin: 1vw 0;
+  font-size: 3.2vw;
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  color: white;
+  font-weight: 600;
+}
+.info .name {
+  /* text-wrap: nowrap; */
+}
+.info .beans-container {
+  margin-top: 0.5vw;
+  display: flex;
+  gap: 1vw;
+  font-size: 2.75vw;
+}
+.info .beans-container .bean-img {
+  max-width: 3vw;
+  max-height: 3vw;
+}
+
+.winner-container {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  /* height: 450px; */
+  align-items: center;
+  margin-top: 16px;
+  padding-inline: 16px;
+  gap: 8px;
+  margin-bottom: 32px;
+  padding-bottom: 47px;
+  margin-inline: auto;
+}
+
+.winner-strip {
+  color: #f6d785;
+  display: flex;
+  width: 100%;
+  /* min-height: 40px; */
+  align-items: center;
+  padding-inline: 14px;
+  padding-bottom: 2vw;
+  background: url("../assets/img/leaderboardStrip.png") center/100% 100%
+    no-repeat;
+  gap: 1em;
+  padding-top: 1vw;
+}
+
+.winner-strip .info {
+  flex: 1;
+  color: inherit;
+}
+
+.winner-strip .info .beans-container {
+  display: flex !important;
+  gap: 1vw;
+  background: #232323;
+}
+.winner-strip .info .beans-container .bean-img {
+  max-width: 5vw !important;
+}
+
+.dancing-1,
+.singing-1,
+.fashion-1 {
+  position: relative;
+  margin-top: 3vw;
+}
+
+/* ----Footer section---- */
 
 footer {
-    position: relative;
-  }
-  footer img {
-    width: 100%;
-    position: absolute;
-    bottom: -18vw;
-    z-index: -1;
-  }
-  
-  footer p {
-    font-size: 3vw;
-    text-align: center;
-    color: #fff;
-    font-weight: 600;
-  }
-  
+  position: relative;
+}
+footer img {
+  width: 100%;
+  position: absolute;
+  bottom: -18vw;
+  z-index: -1;
+}
+
+footer p {
+  font-size: 3vw;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}

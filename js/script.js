@@ -154,14 +154,14 @@ async function renderLeaderboardData(data, name, roundNumber,category) {
 async function init() {
     const leaderboardData = await fetchSheetData("A4:C13");
     
-    const leaderboardDataS1 = await fetchSheetData("A36:C40");
-    const leaderboardDataF1 = await fetchSheetData("A24:C28");
     const leaderboardDataD1 = await fetchSheetData("A17:C20")
+    const leaderboardDataS1 = await fetchSheetData("A24:C28");
+    const leaderboardDataF1 = await fetchSheetData("A36:C40");
     
     renderLeaderboardData(leaderboardData.table, "user", "1");
-    renderLeaderboardData(leaderboardDataF1.table,"talent",'1','fashion');
-    renderLeaderboardData(leaderboardDataS1.table,"talent",'1','singing');
     renderLeaderboardData(leaderboardDataD1.table,"talent",'1','dancing');
+    renderLeaderboardData(leaderboardDataS1.table,"talent",'1','singing');
+    renderLeaderboardData(leaderboardDataF1.table,"talent",'1','fashion');
   }
 
   init();
